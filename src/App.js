@@ -1,32 +1,25 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
-import Portfolio from "./Pages/Portfolio/Portfolio";
-import Resume from "./Pages/Resume/Resume";
-import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header/Header.js";
+import About from "./pages/About/About.js";
+import Contact from "./pages/Contact/Contact.js";
+import Portfolio from "./pages/Portfolio/Portfolio.js";
+import Resume from "./pages/Resume/Resume.js";
+import Footer from "./components/Footer/Footer.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div className="flex-column justify-flex-start min-100-vh">
+    <BrowserRouter>
         <Header />
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<About />} />
-
-            <Route path="/portfolio" element={<Portfolio />} />
-
-            <Route path="/contact" element={<Contact />} />
-
-            <Route path="/resume" element={<Resume />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
+        </Routes>
         <Footer />
-      </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
