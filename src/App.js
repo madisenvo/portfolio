@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header.js";
-import About from "./pages/About/About.js";
-import Contact from "./pages/Contact/Contact.js";
-import Portfolio from "./pages/Portfolio/Portfolio.js";
-import Resume from "./pages/Resume/Resume.js";
+import About from "./pages/about/About.js";
+import Contact from "./pages/contact/Contact.js";
+import Portfolio from "./pages/portfolio/Portfolio.js";
+import Resume from "./pages/resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
