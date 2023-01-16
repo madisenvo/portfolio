@@ -5,3 +5,11 @@ img {
     margin: 0 auto;
     margin-top: 80px;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vibur&display=swap");
+
+.about {
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+}
+

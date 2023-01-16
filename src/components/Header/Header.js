@@ -7,9 +7,9 @@ import './header.css';
 
 export default function Header() {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar className="nav">
     <Container>
-      <h1>Madisen Vogel</h1>
+      <h1 className="name">Madisen Vogel</h1>
       <Nav className="justify-content-end">
         <NavLink to="/" className="nav-link">About Me</NavLink>
         <NavLink to="/Portfolio" className="nav-link">Portfolio</NavLink>
