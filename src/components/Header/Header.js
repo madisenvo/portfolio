@@ -3,12 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from "react-router-dom";
+import './header.css';
 
 export default function Header() {
   return (
     <Navbar bg="light" variant="light">
     <Container>
-      <Navbar.Brand className="justify-content-start">Madisen Vogel</Navbar.Brand>
+      <h1>Madisen Vogel</h1>
       <Nav className="justify-content-end">
         <NavLink to="/" className="nav-link">About Me</NavLink>
         <NavLink to="/Portfolio" className="nav-link">Portfolio</NavLink>
