@@ -1,23 +1,20 @@
 import React from "react";
+import MyFace from "./MyFace.png";
+import "./about.css";
 
 export default function About() {
   return (
-    <section id="about">
-      <div className="row">
-        <div className="three columns">
-          <img className="profile-pic" src="../assets" alt="my face" />
+    <section className="container align-self-center">
+      <div className="row d-flex justify-content-center align-items-center">
+        <div className="col-sm">
+          <img src={MyFace} className='img-fluid' alt="my face" />
         </div>
-        <div className="nine columns main-col">
-          <h2>About Me</h2>
+        <div className="col-sm">
           <p>
-            Highly motivated full stack web developer with a web development
-            certificate from Denver University, working towards Scrum Master
-            Certification. Experience in project management using agile scrum
-            methodology, clear communication, and effective collaboration.
-            Ability to thrive in a fast-paced environment and tackle varying
-            duties with care and efficiency.
+            Hi! I'm Madisen. 
+            <br/>
+            I have a B.A. in French Studies from Smith College and am now learning to code at the University of Denver's Full Stack Web Development Bootcamp.
           </p>
-          <div className="row"></div>
         </div>
       </div>
     </section>
