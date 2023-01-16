@@ -3,13 +3,17 @@ import "./resume.css";
 
 export default function Resume() {
   return (
-    <div className="columns download">
-      <p>
-        <a href="./resume.pdf" download >
-          <i>Download Resume</i>
-        </a>
-      </p>
+    <div>
+      <div className="card justify-content-center align-items-center skills">
+        <h1>Skills</h1>
+        <p>
+          HTML, CSS, JavaScript, React, Node.js, Express, MySQL, MongoDB,
+          Sequelize, Mongoose, Handlebars, Bootstrap, jQuery, Git, GitHub
+        </p>
+      </div>
+      <a className="btn" href="./mvResume.pdf" download>
+        Download Resume
+      </a>
     </div>
   );
 }
-
