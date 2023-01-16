@@ -11,9 +11,11 @@ export default function Resume() {
           Sequelize, Mongoose, Handlebars, Bootstrap, jQuery, Git, GitHub
         </p>
       </div>
-      <a className="btn" href="./mvResume.pdf" download>
-        Download Resume
-      </a>
+      <div>
+        <a className="download-btn" href="./mvResume.pdf" download>
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 }
