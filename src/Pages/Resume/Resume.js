@@ -7,12 +7,11 @@ export default function Resume() {
       <div className="card justify-content-center align-items-center skills">
         <h1>Skills</h1>
         <p>
-          HTML, CSS, JavaScript, React, Node.js, Express, MySQL, MongoDB,
-          Sequelize, Mongoose, Handlebars, Bootstrap, jQuery, Git, GitHub
+        AJAX, Bootstrap, Bulma, CSS, Express, Git, GitHub, Handlebars, HTML, JavaScript, JQuery, JSON, MongoDB, Mongoose, MySQL, Node.js, React, Sequelize
         </p>
       </div>
       <div>
-        <a className="download-btn" href="/mvResume.pdf" download>
+        <a className="download-btn" href="../mvResume.pdf" download>
           Download Resume
         </a>
       </div>
