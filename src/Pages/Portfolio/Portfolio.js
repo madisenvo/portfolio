@@ -54,7 +54,7 @@ const sort = projects.sort((a, b) => a.name.localeCompare(b.name));
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="container">
       {sort.map((item) => (
         <Card
           img={item.img}

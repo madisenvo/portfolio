@@ -1,34 +1,32 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import "./card.css";
 
 const CardContainer = styled.div`
-  width: 18rem;
-  
+  dislay: flex;
+  max-height: 50rem;
+  justify-content: center;
 `;
 
+const CardBody = styled.div`
+  width: 30rem;
+  justify-content: center;
+  aligh-items: center;
+`;
 
-export default function Card({img, name, github, deployed}) {
-  // const cardStyle = {
-  //   width: '18rem',
-  // };
-
+export default function Card({ img, name, github, deployed }) {
   return (
-    <div className="container">
-      <CardContainer>
-        <img
-          className="card-img-top"
-          src={img}
-        />
-        <div className="card-body">
-        <h5 className="card-title">{name}</h5>
-          <a href={github} className="btn btn-primary">
-            Github Repo
-          </a>
-          <a href={deployed} className="btn btn-primary">
-            Deployed Site
-          </a>
-        </div>
-      </CardContainer>
-    </div>
+    <CardContainer>
+      <CardBody>
+        <img className="card-img" src={img} />
+        <h1 className="card-title">{name}</h1>
+        <a href={github} className="card-btn">
+          Github Repo
+        </a>
+        <a href={deployed} className="card-btn">
+          Deployed Site
+        </a>
+      </CardBody>
+    </CardContainer>
   );
 }
