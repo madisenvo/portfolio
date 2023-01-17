@@ -1,17 +1,24 @@
 import React from 'react';
-import Cards from '../Cards';
+import Card from './components/Card/Card.js';
 
-const canine = {
-  img: 'Spot',
-  name: 'Spot',
-  github: 'The best boy',
-  deployed: 1,
+const textEditor = {
+  img: './text-editor.png',
+  name: 'Text Editor',
+  github: 'https://github.com/madisenvo/Text-Editor',
+  deployed: 'https://salty-scrubland-79160.herokuapp.com/',
+};
+
+const nationalPark = {
+  img: './nat-park.png',
+  name: 'Text Editor',
+  github: 'https://github.com/madisenvo/National-Park-Finder',
+  deployed: 'https://madisenvo.github.io/National-Park-Finder/',
 };
 
 export default function Portfolio() {
   return (
     <div>
-        <Cards name={canine.name} description={canine.description} id={canine.id} />
+        <Cards name={textEditor.name} />
     </div>
   );
 }
