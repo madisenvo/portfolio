@@ -1,26 +1,34 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export default function Card(props) {
-  const cardStyle = {
-    width: '18rem',
-  };
+const CardContainer = styled.div`
+  width: 18rem;
+  
+`;
+
+
+export default function Card({img, name, github, deployed}) {
+  // const cardStyle = {
+  //   width: '18rem',
+  // };
 
   return (
     <div className="container">
-      <div className="card" style={cardStyle}>
+      <CardContainer>
         <img
           className="card-img-top"
-          src={props.img}
-          alt="Card cap"
+          src={img}
         />
         <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
+        <h5 className="card-title">{name}</h5>
+          <a href={github} className="btn btn-primary">
+            Github Repo
+          </a>
+          <a href={deployed} className="btn btn-primary">
+            Deployed Site
           </a>
         </div>
-      </div>
+      </CardContainer>
     </div>
   );
 }
