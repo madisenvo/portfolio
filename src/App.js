@@ -6,6 +6,7 @@ import Contact from "./pages/contact/Contact.js";
 import Portfolio from "./pages/portfolio/Portfolio.js";
 import Resume from "./pages/resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
+import { useState } from "react";
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
