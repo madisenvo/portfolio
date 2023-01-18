@@ -48,7 +48,7 @@ function App() {
       case pages[3].name:
         return <Resume />
       default:
-        return <AboutPage />
+        return <About />
     }
   }
 
