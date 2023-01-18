@@ -11,10 +11,10 @@ export default function Header() {
     <Container>
       <h1 className="name">Madisen Vogel</h1>
       <Nav className="justify-content-end">
-        <Link to="/" className="nav-link">About Me</Link>
-        <Link to="/Portfolio" className="nav-link">Portfolio</Link>
-        <Link to="/Contact" className="nav-link">Contact Me</Link>
-        <Link to="/Resume" className="nav-link">Resume</Link>
+        <Link to="/React-Portfolio" className="nav-link">About Me</Link>
+        <Link to="/React-Portfolio/Portfolio" className="nav-link">Portfolio</Link>
+        <Link to="/React-Portfolio/Contact" className="nav-link">Contact Me</Link>
+        <Link to="/React-Portfolio/Resume" className="nav-link">Resume</Link>
       </Nav>
     </Container>
   </Navbar>
