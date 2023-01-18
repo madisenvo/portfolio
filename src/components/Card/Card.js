@@ -18,7 +18,7 @@ export default function Card({ img, name, github, deployed }) {
   return (
     <CardContainer>
       <CardBody>
-        <img className="card-img" src={img} />
+        <img className="card-img" src={img} alt="screenshot of project"/>
         <h1 className="card-title">{name}</h1>
         <a href={github} className="card-btn">
           Github Repo
