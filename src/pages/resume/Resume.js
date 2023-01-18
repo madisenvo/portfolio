@@ -10,7 +10,7 @@ export default function Resume() {
         AJAX, Bootstrap, Bulma, CSS, Express, Git, GitHub, Handlebars, HTML, JavaScript, JQuery, JSON, MongoDB, Mongoose, MySQL, Node.js, React, Sequelize
         </p>
         <p>
-          Verbal and Written Communication, Creative Problem Solving, Management/Leadership, Scrum and Agile Methodologies, 
+          Verbal and Written Communication, Creative Problem Solving, Management/Leadership, Organization, Teamwork, Scrum and Agile Methodologies
         </p>
       </div>
       <div>
