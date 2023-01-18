@@ -7,10 +7,11 @@ import Portfolio from "./pages/portfolio/Portfolio.js";
 import Resume from "./pages/resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Route, HashRouter as Router, Switch} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
@@ -19,7 +20,7 @@ function App() {
           <Route path="/Resume" element={<Resume />} />
         </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
