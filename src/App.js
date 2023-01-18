@@ -6,20 +6,21 @@ import Contact from "./pages/contact/Contact.js";
 import Portfolio from "./pages/portfolio/Portfolio.js";
 import Resume from "./pages/resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" component={About} />
-          <Route path="/Portfolio" component={Portfolio} />
-          <Route path="/Contact" component={Contact} />
-          <Route path="/Resume" component={Resume} />
+          <Route path="/" element={<About />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
         </Routes>
         <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
