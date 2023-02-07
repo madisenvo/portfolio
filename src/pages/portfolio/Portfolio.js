@@ -5,8 +5,9 @@ import natImg from "./assets/nat-park.png";
 import gopherImg from "./assets/gopher.png";
 import weatherImg from "./assets/weather.png";
 import schedulerImg from "./assets/scheduler.png";
-import quizImg from "./assets/quiz.png";
 import turnipImg from "./assets/turnip.png";
+// import quizImg from "./assets/quiz.png";
+
 
 const textEditor = {
   img: textImg,
