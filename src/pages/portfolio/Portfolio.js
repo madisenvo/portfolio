@@ -6,6 +6,7 @@ import gopherImg from "./assets/gopher.png";
 import weatherImg from "./assets/weather.png";
 import schedulerImg from "./assets/scheduler.png";
 import quizImg from "./assets/quiz.png";
+import turnipImg from "./assets/turnip.png";
 
 const textEditor = {
   img: textImg,
@@ -42,14 +43,21 @@ const scheduler = {
   deployed: "https://madisenvo.github.io/Work-Day-Scheduler/",
 };
 
-const quiz = {
-  img: quizImg,
-  name: "Code Quiz",
-  github: "https://github.com/madisenvo/Code-Quiz",
-  deployed: "https://madisenvo.github.io/Code-Quiz/",
+const turnip = {
+  img: turnipImg,
+  name: "Turnip the Zine",
+  github: "https://github.com/madisenvo/Turnip-the-Zine",
+  deployed: "https://turnip-the-zine.herokuapp.com/",
 };
 
-const projects = [textEditor, nationalPark, gopher, weather, scheduler, quiz];
+// const quiz = {
+//   img: quizImg,
+//   name: "Code Quiz",
+//   github: "https://github.com/madisenvo/Code-Quiz",
+//   deployed: "https://madisenvo.github.io/Code-Quiz/",
+// };
+
+const projects = [textEditor, nationalPark, gopher, weather, scheduler, turnip];
 const sort = projects.sort((a, b) => a.name.localeCompare(b.name));
 
 export default function Portfolio() {
