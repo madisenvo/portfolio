@@ -14,7 +14,7 @@ export default function Resume() {
         </p>
       </div>
       <div>
-        <a className="download-btn" href="../mvResume.pdf" download>
+        <a className="download-btn" href="../mvogelresume.pdf" download>
           Download Resume
         </a>
       </div>

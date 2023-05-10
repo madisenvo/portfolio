@@ -7,7 +7,6 @@ export default function Footer() {
     <div className="icons">
       <SocialIcon url="https://github.com/madisenvo" />
       <SocialIcon url="https://www.linkedin.com/in/madisen-v-63814511a/" />
-      <SocialIcon url="https://twitter.com/madisenmim" />
     </div>
   );
 }

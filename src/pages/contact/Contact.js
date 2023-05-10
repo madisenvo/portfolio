@@ -5,7 +5,7 @@ import "./contact.css";
 export default function Contact() {
     return (
     <div>
-        <Form className="form">
+        <Form className="form" action="https://formspree.io/f/moqzbqnv" method="POST">
         <Form.Group className="m-3">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" required />
