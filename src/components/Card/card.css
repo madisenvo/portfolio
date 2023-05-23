@@ -12,6 +12,8 @@
 
 .card-title{
     font-family: 'Vibur', cursive;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-img{
@@ -31,4 +33,9 @@
     border-radius: 10px;
     background-color: #f09;
     color: #fff;
+}
+
+.card-desc{
+    font-size: 18px;
+    margin-bottom: 50px;
 }

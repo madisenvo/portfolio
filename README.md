@@ -1,6 +1,6 @@
 # React Portfolio
 
-https://madisenvo.github.io/React-Portfolio
+https://madisenvo.github.io/home
 
 ## Description
 

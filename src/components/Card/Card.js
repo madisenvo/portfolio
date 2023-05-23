@@ -6,6 +6,7 @@ const CardContainer = styled.div`
   dislay: flex;
   max-height: 50rem;
   justify-content: center;
+  align-items: center;
 `;
 
 const CardBody = styled.div`
@@ -14,12 +15,13 @@ const CardBody = styled.div`
   aligh-items: center;
 `;
 
-export default function Card({ img, name, github, deployed }) {
+export default function Card({ img, name, desc, github, deployed }) {
   return (
     <CardContainer>
       <CardBody>
         <img className="card-img" src={img} alt="screenshot of project"/>
         <h1 className="card-title">{name}</h1>
+        <h2 className="card-desc">{desc}</h2>
         <a href={github} className="card-btn">
           Github Repo
         </a>

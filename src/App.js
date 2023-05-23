@@ -14,10 +14,10 @@ function App() {
     <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/React-Portfolio" element={<About />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="/home" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
     </BrowserRouter>
