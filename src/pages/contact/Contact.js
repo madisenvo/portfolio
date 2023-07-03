@@ -8,17 +8,17 @@ export default function Contact() {
         <Form className="form" action="https://formspree.io/f/moqzbqnv" method="POST">
         <Form.Group className="m-3">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Name" required />
+            <Form.Control name="name" type="text" placeholder="Name" required />
         </Form.Group>
 
         <Form.Group className="m-3">
             <Form.Label>Email Address</Form.Label>
-            <Form.Control type="email" placeholder="Email" required />
+            <Form.Control name="email" type="email" placeholder="Email" required />
         </Form.Group>
 
         <Form.Group className="m-3">
             <Form.Label>Message</Form.Label>
-            <Form.Control type="text" placeholder="Message" required />
+            <Form.Control name="text" type="text" placeholder="Message" required />
         </Form.Group>
 
         <Button className="m-3" type="submit">

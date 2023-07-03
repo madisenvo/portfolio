@@ -20,10 +20,10 @@ export default function About() {
             in Full Stack Web Development from the University of Denver.
             <br />
             <br />
-            I'm naturally curious, a passionate problem-solver and expert communicator always looking to expand my skillset and work with a supportive team on challenging and diverse projects.
+            I'm a naturally curious, passionate problem-solver and expert communicator always looking to expand my skillset and work with a supportive team on challenging and diverse projects.
           </p>
         </div>
       </div>
     </section>
-  );
+  )
 }
